@@ -11,19 +11,19 @@ cmake -S . -B build -G "Unix Makefiles"
 
 > - Taxonomy of Unix IPC facilities.
 > 
-> ![Image](_repo\Unix-IPC.jpg "Taxonomy of Unix IPC facilities")
+> ![Image](_repo/Unix-IPC.jpg "Taxonomy of Unix IPC facilities")
 
 > - Identifies and handles for various of IPC > facilities.
 > 
-> ![Image](_repo\Identifier-and-handles-for-IPC-facilities.JPG "Identifiers & Handles")
+> ![Image](_repo/Identifier-and-handles-for-IPC-facilities.JPG "Identifiers & Handles")
 
 > - Accessibility and persistence for IPC.
 > 
-> ![Image](_repo\accessibility-persistence-ipc-facilities.JPG "Identifiers & Handles")
+> ![Image](_repo/accessibility-persistence-ipc-facilities.JPG "Identifiers & Handles")
 
 
 
-## 10. NOTES
+## NOTES
 > - **Not01: Running IPC on Cygwin** Be careful when using cygwin to test IPCs solution. By default the cygwin does not start some service, it is resulted in lack of service to serve ipc request so errors will be occurred during test. It is best to test on native unix evironment like linux.
 > - **So01:** Starting cygserver service on cigwin to serve ipc service. It is required following steps.
 > ```Shell
